@@ -1,0 +1,7 @@
+imageio
+matplotlib
+numpy
+opencv_python
+Pillow
+imageio-ffmpeg
+pyyaml
