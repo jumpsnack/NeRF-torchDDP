@@ -26,7 +26,7 @@ All datasets must be downloaded to a directory `../data` and must follow the bel
 ├──data/
     ├──nerf_synthetic/
     ├──nerf_llff_data/
-├──NeRF-DDP/
+├──NeRF-torchDDP/
     ├──main.py/
     ...
 ```
