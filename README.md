@@ -3,6 +3,8 @@
 
 This repo is an unofficial implementation of ["NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis"](https://arxiv.org/pdf/2003.08934.pdf). The codebase is implemented using [PyTorch](https://pytorch.org/) and tested on [Ubuntu](https://ubuntu.com/) 20.04.4 LTS.
 
+![demo](assets/lego.gif)
+
 ## Prerequisite
 
 ### `Configure environment`
@@ -31,7 +33,7 @@ All datasets must be downloaded to a directory `../data` and must follow the bel
     ...
 ```
 
-We refer to IBRNet's repository to download and prepare data.
+We refer to [IBRNet](https://github.com/googleinterns/IBRNet)'s repository to download and prepare data.
 ```bash
 # Blender dataset
 gdown https://drive.google.com/uc?id=18JxhpWD-4ZmuFKLzKlAw-w5PpzZxXOcG
